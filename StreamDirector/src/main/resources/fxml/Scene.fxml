@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<VBox spacing="5" alignment="CENTER" prefWidth="400" prefHeight="400" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.streamdirector.FXMLController">
+    <HBox spacing="5" alignment="CENTER" fx:id="ffmpegSelectionHBox">
+        <Button text="Auto find FFmpeg" onAction="#handleFFmpegFindButton" fx:id="findFFmpegBtn" />
+        <Label text="or" fx:id="OrLabel" />
+        <Button text="Select location manually" onAction="#handleFFmpegSelectButton" fx:id="selectFFmpegBtn" />
+    </HBox>
+    <Label fx:id="ffmpegLabel" />
+    
+    <VBox spacing="5" alignment="CENTER" visible="false" fx:id="fileSelectionVBox">
+        <Button text="Select file to be converted" onAction="#handleFileSelectButton" fx:id="selectBtn" />
+        <Label fx:id="selectionLabel" />
+    </VBox>
+    
+    <VBox spacing="5" alignment="CENTER" visible="false" fx:id="conversionVBox">
+        <Button text="Convert" onAction="#handleConvertButton" fx:id="convertBtn" />
+        <Label fx:id="conversionLabel" />
+    </VBox>
+</VBox>
