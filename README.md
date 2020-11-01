@@ -9,7 +9,10 @@ A system consisted of 3 applications responsible for conversion, communication b
 
 ## Visuals
 StreamDirector application - converts the videos to the initial formats and bitrates.
-kalo einai edw pou tha bei to GIf na yparxei koumpi gia thn emfanish tou
+<details>
+  <summary>Click to see it in action</summary>
+  ![StreamDirector](./img/sd.gif)
+</details>
 
 StreamingServer application - contains the videos to be streamed and implements the server logic.
 
