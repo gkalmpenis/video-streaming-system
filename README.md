@@ -17,13 +17,13 @@ StreamDirector application - converts the videos to the initial formats and bitr
 StreamingServer application - contains the videos to be streamed and implements the server logic.
 <details>
   <summary>Click to see it in action</summary>
-  <img src="./img/ss3.gif"/>
+  <img src="./img/ss.gif"/>
 </details>
 
 StreamingClient application - communicates with the server to request a subset of the available videos and to begin the video streaming.
 <details>
   <summary>Click to see it in action</summary>
-  <img src="./img/sc4.gif"/>
+  <img src="./img/sc.gif"/>
 </details>
 
 ## Features
