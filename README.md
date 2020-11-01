@@ -8,19 +8,21 @@ A system consisted of 3 applications responsible for conversion, communication b
 ## Use case
 
 ## Visuals
-StreamDirector application - converts the videos to the initial formats and bitrates.
+* StreamDirector application - converts the videos to the initial formats and bitrates.
 <details>
   <summary>Click to see it in action</summary>
   <img src="./img/sd.gif"/>
 </details>
+<br>
 
-StreamingServer application - contains the videos to be streamed and implements the server logic.
+* StreamingServer application - contains the videos to be streamed and implements the server logic.
 <details>
   <summary>Click to see it in action</summary>
   <img src="./img/ss.gif"/>
 </details>
+<br>
 
-StreamingClient application - communicates with the server to request a subset of the available videos and to begin the video streaming.
+* StreamingClient application - communicates with the server to request a subset of the available videos and to begin the video streaming.
 <details>
   <summary>Click to see it in action</summary>
   <img src="./img/sc.gif"/>
@@ -28,7 +30,6 @@ StreamingClient application - communicates with the server to request a subset o
 
 ## Features
 * Built with MVC Architecture Pattern.
-* 
 
 
 ## Notes
