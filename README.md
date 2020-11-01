@@ -23,6 +23,7 @@ A system consisted of 3 applications responsible for conversion, communication b
 <br>
 
 * StreamingClient application - communicates with the server to request a subset of the available videos and to begin the video streaming.
+Bale 2 gif - to ena na deixnei thn arxikh roh tou client, to 2o ta upoloipa
 <details>
   <summary>Click to see it in action</summary>
   <img src="./img/sc.gif"/>
