@@ -11,12 +11,20 @@ A system consisted of 3 applications responsible for conversion, communication b
 StreamDirector application - converts the videos to the initial formats and bitrates.
 <details>
   <summary>Click to see it in action</summary>
-  ![StreamDirector](./img/sd.gif)
+  <img src="./img/sd.gif"/>
 </details>
 
 StreamingServer application - contains the videos to be streamed and implements the server logic.
+<details>
+  <summary>Click to see it in action</summary>
+  <img src="./img/ss3.gif"/>
+</details>
 
 StreamingClient application - communicates with the server to request a subset of the available videos and to begin the video streaming.
+<details>
+  <summary>Click to see it in action</summary>
+  <img src="./img/sc4.gif"/>
+</details>
 
 ## Features
 * Built with MVC Architecture Pattern.
