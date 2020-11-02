@@ -1,0 +1,16 @@
+.button {
+    -fx-font-weight: bold;
+}
+#videosListView .list-cell {
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+}
+#videosListView .list-cell:focused {
+    -fx-background-color: darkslategrey;
+    -fx-text-fill: white;
+}
+#videosListView {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}

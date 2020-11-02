@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<VBox spacing="10" alignment="CENTER" prefWidth="410" prefHeight="410" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.streamingserver.FXMLController">
+        <VBox spacing="5" alignment="CENTER">
+            <HBox spacing="5" alignment="CENTER" fx:id="ffmpegSelectionHBox">
+                <Button text="Auto find FFmpeg" onAction="#handleFFmpegFindButton" fx:id="findFFmpegBtn" />
+                <Label text="or" fx:id="OrLabel" />
+                <Button text="Select location manually" onAction="#handleFFmpegSelectButton" fx:id="selectFFmpegBtn" />
+            </HBox>
+            <Label fx:id="ffmpegLabel" />
+        </VBox>
+        <VBox spacing="5" alignment="CENTER">
+            <Button text="Select videos folder" onAction="#handleFolderSelection" fx:id="folderBtn" />
+            <Label fx:id="folderLabel" />
+        </VBox>
+        <VBox spacing="5" alignment="CENTER">
+            <Button text="Start server" onAction="#handleServerStart" fx:id="serverStartBtn" />
+            <Label fx:id="serverMsgLabel" />
+        </VBox>
+</VBox>

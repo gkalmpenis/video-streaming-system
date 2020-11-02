@@ -1,0 +1,5 @@
+com\mycompany\streamdirector\MainApp.class
+com\mycompany\streamdirector\FFmpegLocator$1.class
+com\mycompany\streamdirector\FFmpegLocator.class
+com\mycompany\streamdirector\FXMLController.class
+com\mycompany\streamdirector\Converter.class
