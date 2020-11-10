@@ -1,5 +1,5 @@
 <p align="center">
-  A system consisted of 3 applications capable of video conversion, communication (server-client model) and video streaming.
+  A system consisted of 3 applications capable of video conversion, streaming and bidirectional communication (server-client model).
 </p>
 <br>
 
